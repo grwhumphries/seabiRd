@@ -1,0 +1,11 @@
+Package: seabiRd
+Type: Package
+Title: Seabird-focused colour themes for R
+Version: 0.1.0
+Author: Grant Humphries
+Maintainer: Grant Humphries <grwhumphries@blackbawks.net>
+Description: Seabird-themed colour palettes for plotting. Inspired by https://github.com/asteves/tayloRswift
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

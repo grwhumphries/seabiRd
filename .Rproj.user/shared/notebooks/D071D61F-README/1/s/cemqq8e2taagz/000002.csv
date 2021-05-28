@@ -1,0 +1,4 @@
+"0","ggplot(x)+"
+"0","  geom_bar(aes(x=object,y=values,fill=object),stat=""identity"",color=""black"")+"
+"0","  scale_fill_seabird(palette = ""atlanticpuffin"")+"
+"0","  theme_minimal()"

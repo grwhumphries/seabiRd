@@ -1,0 +1,4 @@
+"0","ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +"
+"0","  geom_point(size = 4) +"
+"0","  scale_color_seabird(palette = ""wavedalbatross"")+"
+"0","  theme_minimal()"

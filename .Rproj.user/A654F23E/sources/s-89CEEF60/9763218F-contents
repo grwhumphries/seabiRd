@@ -1,0 +1,48 @@
+
+library(tidyverse)
+library(extrafont)
+x <- data.frame(object=LETTERS[1:6],values=c(10,12,15,9,5,11))
+
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "atlanticpuffin")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "bluefootedbooby")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "kingpenguin")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "wavedalbatross")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "whiskeredauklet")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "incatern")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "chileanskua")+
+  HiDef::Theme_HiDEF()
+
+ggplot(x)+
+  geom_bar(aes(x=object,y=values,fill=object),stat="identity",color="black")+
+  scale_fill_seabird(palette = "redleggedkittiwake")+
+  HiDef::Theme_HiDEF()
+
+
+
